@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Movie Recommendation System">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Movie Recommendation System</h1>
+        <p>Select a genre to get movie recommendations</p>
+    </header>
+
+    <main>
+        <!-- Genre Selection -->
+        <div class="genre-selection">
+            <label for="genre">Select Genre:</label>
+            <select id="genre">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+                <option value="romance">Romance</option>
+            </select>
+            <button id="recommendButton">Get Recommendations</button> <!-- Use ID to identify the button -->
+        </div>
+
+        <!-- Movie Recommendations -->
+        <section id="recommendations">
+            <h2>Recommended Movies:</h2>
+            <ul id="movie-list">
+                <!-- Movie recommendations will be displayed here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;  Movie Recommendation System</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

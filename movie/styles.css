@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #008080;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.genre-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.genre-selection select {
+    font-size: 1.1em;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.genre-selection button {
+    font-size: 1.2em;
+    padding: 8px 12px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.genre-selection button:hover {
+    background-color: #006666;
+}
+
+#recommendations {
+    text-align: center;
+}
+
+#movie-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#movie-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 40px;
+}
