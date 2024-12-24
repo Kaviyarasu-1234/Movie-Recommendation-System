@@ -1,75 +1,61 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header {
+h1, h2 {
+    color: #4a90e2;
     text-align: center;
-    margin-bottom: 30px;
 }
 
-header h1 {
-    font-size: 2.5em;
-    color: #008080;
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-header p {
-    font-size: 1.2em;
-}
-
-.genre-selection {
-    text-align: center;
+select, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
     margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-.genre-selection select {
-    font-size: 1.1em;
-    padding: 8px;
-    margin-right: 10px;
-}
-
-.genre-selection button {
-    font-size: 1.2em;
-    padding: 8px 12px;
-    background-color: #008080;
+button {
+    background-color: #4a90e2;
     color: white;
-    border: none;
     cursor: pointer;
+    border: none;
 }
 
-.genre-selection button:hover {
-    background-color: #006666;
-}
-
-#recommendations {
-    text-align: center;
+button:hover {
+    background-color: #357ab8;
 }
 
 #movie-list {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 #movie-list li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    padding: 8px;
-    background-color: white;
+    background: #f9f9f9;
     border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #777;
-    margin-top: 40px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
 }
